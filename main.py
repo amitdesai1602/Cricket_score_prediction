@@ -10,12 +10,11 @@ pipe = pickle.load(open('newmodel.pkl', 'rb'))
 st.title('Khelo Dimag Se')
 st.sidebar.title('Cricket Score Predictor')
 
-from PIL import Image
+#from PIL import Image
 
+#image = Image.open('C:/Users/AMIT/PycharmProjects/myproject/crick1.jpg','r')
 
-image = Image.open('C:/Users/AMIT/PycharmProjects/myproject/crick1.jpg','r')
-
-st.image(image)
+#st.image(image)
 
 teams = ['Australia',
          'India',
