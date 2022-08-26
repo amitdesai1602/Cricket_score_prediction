@@ -12,7 +12,7 @@ st.sidebar.title('Cricket Score Predictor')
 
 from PIL import Image
 
-image = Image.open('C:/Users/AMIT/PycharmProjects/myproject/crick1.jpg','r')
+image = Image.open('crick1.jpg','r')
 
 st.image(image)
 
